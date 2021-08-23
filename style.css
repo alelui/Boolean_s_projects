@@ -1,0 +1,75 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+    padding: 80px;
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+/* HEADER */
+header{
+    font-family: Arial;
+    text-align: center;
+    color:lime;
+}
+
+header > img{
+    width: 250px;
+}
+
+header > span{
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+header > section{
+    padding: 10px;
+    background-color: rgb(29, 219, 29);
+}
+
+
+
+
+/* MAIN */
+main{
+    font-family: Arial;
+    font-size: 12px;
+    color: white;
+    font-weight: bold; 
+
+}
+.titolo-paragrafo{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.via:before{
+    content: "\21A3";
+}
+
+.charge{
+    height: 25px;
+    border-radius: 5px;
+ 
+}
+
+.orange{
+    background-color: orange;
+    width: 40%;
+}
+.green{
+    background-color: rgb(25, 187, 25);
+    width: 60%;
+}
+.red{
+    background-color: red;
+    width: 15%;
+}
